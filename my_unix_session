@@ -1,0 +1,370 @@
+Script started on 2022-06-21 09:40:30+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;shriranjani@TIGER03201: ~[01;32mshriranjani@TIGER03201[00m:[01;34m~[00m$ ls[Ksudo script -a ~/my_unix_session
+[sudo] password for shriranjani: 
+Script started, file is /home/shriranjani/my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# sudo apt get install git
+[1;31mE: [0mInvalid operation get[0m
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# sudo apt get install git[1P[1P[1P
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 59%Reading package lists... 59%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3).
+git set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# sudo apt install git-all
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package git-all[0m
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# git --version
+git version 2.25.1
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# ls
+my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# git config --list --show-origin
+[?1h=[K[?1l>]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# git config --global user.name "shriranjani101997"
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani#  git config --global user.email "shriranjani.venk@tigeranalytics.com"
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# git config --list --show-origin
+[?1h=file:/root/.gitconfig   user.name=shriranjani101997[m
+file:/root/.gitconfig   user.email=shriranjani.venk@tigeranalytics.com[m
+[K[?1l>]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# ls
+my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cd ..
+]0;root@TIGER03201: /homeroot@TIGER03201:/home# ls
+[0m[01;34mshriranjani[0m
+]0;root@TIGER03201: /homeroot@TIGER03201:/home# cd shriranjani/
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# ls
+my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cd ~
+]0;root@TIGER03201: ~root@TIGER03201:~# ls
+]0;root@TIGER03201: ~root@TIGER03201:~# cd .
+]0;root@TIGER03201: ~root@TIGER03201:~# cd
+]0;root@TIGER03201: ~root@TIGER03201:~# cd ./
+]0;root@TIGER03201: ~root@TIGER03201:~# cd
+]0;root@TIGER03201: ~root@TIGER03201:~# cd /
+]0;root@TIGER03201: /root@TIGER03201:/# ls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m  Script started on 2022-06-21 09:40:56+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="30"]
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# sudo apt get install git
+[1;31mE: [0mInvalid operation get[0m
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# sudo apt get install git[1P[1P[1P
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 59%Reading package lists... 59%Reading package lists... 90%Reading package lists... 90%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... 93%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.25.1-1ubuntu3).
+git set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# sudo apt install git-all
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+[1;31mE: [0mUnable to locate package git-all[0m
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# git --version
+git version 2.25.1
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# ls
+my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# git config --list --show-origin
+[?1h=[K[?1l>]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# git config --global user.name "shriranjani101997"
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani#  git config --global user.email "shriranjani.venk@tigeranalytics.com"
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# git config --list --show-origin
+[?1h=file:/root/.gitconfig   user.name=shriranjani101997[m
+file:/root/.gitconfig   user.email=shriranjani.venk@tigeranalytics.com[m
+[K[?1l>]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# ls
+my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cd ..
+]0;root@TIGER03201: /homeroot@TIGER03201:/home# ls
+[0m[01;34mshriranjani[0m
+]0;root@TIGER03201: /homeroot@TIGER03201:/home# cd shriranjani/
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# ls
+my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cd ~
+]0;root@TIGER03201: ~root@TIGER03201:~# ls
+]0;root@TIGER03201: ~root@TIGER03201:~# cd .
+]0;root@TIGER03201: ~root@TIGER03201:~# cd
+]0;root@TIGER03201: ~root@TIGER03201:~# cd ./
+]0;root@TIGER03201: ~root@TIGER03201:~# cd
+]0;root@TIGER03201: ~root@TIGER03201:~# cd /
+]0;root@TIGER03201: /root@TIGER03201:/# ls
+[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib[0m    [01;36mlib64[0m   [01;34mlost+found[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msnap[0m  [01;34msys[0m  [01;34musr[0m
+[01;34mboot[0m  [01;34metc[0m  [01;32minit[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmedia[0m       [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
+]0;root@TIGER03201: /root@TIGER03201:/# cd usr/
+]0;root@TIGER03201: /usrroot@TIGER03201:/usr# ls
+[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin [30;42mtmp[0m  [01;34mvar[0m
+]0;root@TIGER03201: /root@TIGER03201:/# cd usr/
+]0;root@TIGER03201: /usrroot@TIGER03201:/usr# ls
+[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib32[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlibx32[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m
+]0;root@TIGER03201: /usrroot@TIGER03201:/usr# cd src/
+]0;root@TIGER03201: /usr/srcroot@TIGER03201:/usr/src# ls
+]0;root@TIGER03201: /usr/srcroot@TIGER03201:/usr/src# ls
+]0;root@TIGER03201: /usr/srcroot@TIGER03201:/usr/src# cd ..
+]0;root@TIGER03201: /usrroot@TIGER03201:/usr# cd ..
+]0;root@TIGER03201: /root@TIGER03201:/# cd mnt/
+]0;root@TIGER03201: /mntroot@TIGER03201:/mnt# ls
+[0m[34;42mc[0m  [34;42me[0m  [34;42mg[0m  [30;42mwsl[0m  [30;42mwslg[0m
+]0;root@TIGER03201: /mntroot@TIGER03201:/mnt# cd c
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# ls
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+[0m[34;42m'$Recycle.Bin'[0m             DumpStack.log.tmp  [01;34m'Program Files (x86)'[0m         [01;34mWindows[0m        pagefile.sys
+[01;34m'$WinREAgent'[0m              [01;32mFIOD.manifest[0m       [34;42mProgramData[0m                  [34;42mdell[0m           swapfile.sys
+ [34;42mApps[0m                      [34;42mIntel[0m               [01;34mRecovery[0m                     [01;32mdell.sdr[0m
+[01;36m'Documents and Settings'[0m   [01;34mPerfLogs[0m           [01;34m'System Volume Information'[0m   [34;42me-logo[0m
+ [34;42mDrivers[0m                  [01;34m'Program Files'[0m      [01;34mUsers[0m                        hiberfil.sys
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Documents\ and\ Settings
+]0;root@TIGER03201: /mnt/c/Documents and Settingsroot@TIGER03201:/mnt/c/Documents and Settings# ls
+ [0m[01;34mAdmin[0m  [01;36m'All Users'[0m   [01;34mDefault[0m  [01;36m'Default User'[0m   [34;42mPublic[0m   [01;32mdesktop.ini[0m   [01;34mgaia[0m   [34;42mshriranjani.venk[0m
+]0;root@TIGER03201: /mnt/c/Documents and Settingsroot@TIGER03201:/mnt/c/Documents and Settings# cd shriranjani.venk/
+]0;root@TIGER03201: /mnt/c/Documents and Settings/shriranjani.venkroot@TIGER03201:/mnt/c/Documents and Settings/shriranjani.venk# ls
+ [0m[34;42mAnaconda3[0m
+ [34;42mAppData[0m
+[01;36m'Application Data'[0m
+ [34;42mContacts[0m
+ [01;36mCookies[0m
+ [34;42mDesktop[0m
+ [34;42mDocuments[0m
+ [34;42mDownloads[0m
+ [34;42mFavorites[0m
+ [34;42mIntelGraphicsProfiles[0m
+ [34;42mLinks[0m
+[01;36m'Local Settings'[0m
+ [34;42mMusic[0m
+[01;36m'My Documents'[0m
+ [01;32mNTUSER.DAT[0m
+ [01;32mNTUSER.DAT{8291754b-77b3-11ec-be95-8c47be171a1b}.TM.blf[0m
+ [01;32mNTUSER.DAT{8291754b-77b3-11ec-be95-8c47be171a1b}.TMContainer00000000000000000001.regtrans-ms[0m
+ [01;32mNTUSER.DAT{8291754b-77b3-11ec-be95-8c47be171a1b}.TMContainer00000000000000000002.regtrans-ms[0m
+ [01;36mNetHood[0m
+ [34;42mOneDrive[0m
+ [34;42mPictures[0m
+ [01;36mPrintHood[0m
+ [01;36mRecent[0m
+[34;42m'Saved Games'[0m
+ [34;42mSearches[0m
+ [01;36mSendTo[0m
+[01;36m'Start Menu'[0m
+ [01;36mTemplates[0m
+ [34;42mVideos[0m
+ [01;32mntuser.dat.LOG1[0m
+ [01;32mntuser.dat.LOG2[0m
+ [01;32mntuser.ini[0m
+]0;root@TIGER03201: /mnt/c/Documents and Settings/shriranjani.venkroot@TIGER03201:/mnt/c/Documents and Settings/shriranjani.venk# cd Desktop/
+]0;root@TIGER03201: /mnt/c/Documents and Settings/shriranjani.venk/Desktoproot@TIGER03201:/mnt/c/Documents and Settings/shriranjani.venk/Desktop# ls
+ [0m[01;32mEvernote.lnk[0m            [01;32mRTM_US2_cluster.txt[0m                   [01;32m'Visual Studio Code.lnk'[0m
+ [01;32mFAST_US_cluster.txt[0m     [01;32mSP_COST_DASHBOARD_ACTUALS_BANNER.txt[0m   [01;32mdesktop.ini[0m
+ [01;32mFast_US4_core.txt[0m       [01;32mSP_FI[0m  [01;34mshare[0m  [01;34msrc[0m
+]0;root@TIGER03201: /usrroot@TIGER03201:/usr# cd src/
+]0;root@TIGER03201: /usr/srcroot@TIGER03201:/usr/src# ls
+]0;root@TIGER03201: /usr/srcroot@TIGER03201:/usr/src# ls
+]0;root@TIGER03201: /usr/srcroot@TIGER03201:/usr/src# cd ..
+]0;root@TIGER03201: /usrroot@TIGER03201:/usr# cd ..
+]0;root@TIGER03201: /root@TIGER03201:/# cd mnt/
+]0;root@TIGER03201: /mntroot@TIGER03201:/mnt# ls
+[0m[34;42mc[0m  [34;42me[0m  [34;42mg[0m  [30;42mwsl[0m  [30;42mwslg[0m
+]0;root@TIGER03201: /mntroot@TIGER03201:/mnt# cd c
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# ls
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+[0m[34;42m'$Recycle.Bin'[0m             DumpStack.log.tmp  [01;34m'Program Files (x86)'[0m         [01;34mWindows[0m        pagefile.sys
+[01;34m'$WinREAgent'[0m              [01;32mFIOD.manifest[0m       [34;42mProgramData[0m                  [34;42mdell[0m           swapfile.sys
+ [34;42mApps[0m                      [34;42mIntel[0m               [01;34mRecovery[0m                     [01;32mdell.sdr[0m
+[01;36m'Documents and Settings'[0m   [01;34mPerfLogs[0m           [01;34m'System Volume Information'[0m   [34;42me-logo[0m
+ [34;42mDrivers[0m                  [01;34m'Program Files'[0m      [01;34mUsers[0m                        hiberfil.sys
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Documents\ and\ Settings
+]0;root@TIGER03201: /mnt/c/Documents and Settingsroot@TIGER03201:/mnt/c/Documents and Settings# ls
+ [0m[01;34mAdmin[0m  [01;36m'All Users'[0m   [01;34mDefault[0m  [01;36m'Default User'[0m   [34;42mPublic[0m   [01;32mdesktop.ini[0m   [01;34mgaia[0m   [34;42mshriranjani.venk[0m
+]0;root@TIGER03201: /mnt/c/Documents and Settingsroot@TIGER03201:/mnt/c/Documents and Settings# cd shriranjani.venk/
+]0;root@TIGER03201: /mnt/c/Documents and Settings/shriranjani.venkroot@TIGER03201:/mnt/c/Documents and Settings/shriranjani.venk# ls
+ [0m[34;42mAnaconda3[0m
+ [34;42mAppData[0m
+[01;36m'Application Data'[0m
+ [34;42mContacts[0m
+ [01;36mCookies[0m
+ [34;42mDesktop[0m
+ [34;42mDocuments[0m
+ [34;42mDownloads[0m
+ [34;42mFavorites[0m
+ [34;42mIntelGraphicsProfiles[0m
+ [34;42mLinks[0m
+[01;36m'Local Settings'[0m
+ [34;42mMusic[0m
+[01;36m'My Documents'[0m
+ [01;32mNTUSER.DAT[0m
+ [01;32mNTUSER.DAT{8291754b-77b3-11ec-be95-8c47be171a1b}.TM.blf[0m
+ [01;32mNTUSER.DAT{8291754b-77b3-11ec-be95-8c47be171a1b}.TMContainer00000000000000000001.regtrans-ms[0m
+ [01;32mNTUSER.DAT{8291754b-77b3-11ec-be95-8c47be171a1b}.TMContainer00000000000000000002.regtrans-ms[0m
+ [01;36mNetHood[0m
+ [34;42mOneDrive[0m
+ [34;42mPictures[0m
+ [01;36mPrintHood[0m
+ [01;36mRecent[0m
+[34;42m'Saved Games'[0m
+ [34;42mSearches[0m
+ [01;36mSendTo[0m
+[01;36m'Start Menu'[0m
+ [01;36mTemplates[0m
+ [34;42mVideos[0m
+ [01;32mntuser.dat.LOG1[0m
+ [01;32mntuser.dat.LOG2[0m
+ [01;32mntuser.ini[0m
+]0;root@TIGER03201: /mnt/c/Documents and Settings/shriranjani.venkroot@TIGER03201:/mnt/c/Documents and Settings/shriranjani.venk# cd Desktop/
+]0;root@TIGER03201: /mnt/c/Documents and Settings/shriranjani.venk/Desktoproot@TIGER03201:/mnt/c/Documents and Settings/shriranjani.venk/Desktop# ls
+ [0m[01;32mEvernote.lnk[0m            [01;32mRTM_US2_cluster.txt[0m                   [01;32m'Visual Studio Code.lnk'[0m
+ [01;32mFAST_US_cluster.txt[0m     [01;32mSP_COST_DASHBOARD_ACTUALS_BANNER.txt[0m   [01;32mdesktop.ini[0m
+ [01;32mFast_US4_core.txt[0m       [01;32mSP_FINAL_COST_DASHBOARD_BANNER.txt[0m     [01;32mrtm_code_template_cluster.txt[0m
+ [01;32mGlobalrtm_cluster.txt[0m  [01;32m'Shriranjani - Chrome.lnk'[0m
+]0;root@TIGER03201: /mnt/c/Documents and Settings/shriranjani.venk/Desktoproot@TIGER03201:/mnt/c/Documents and Settings/shriranjani.venk/Desktop# cd
+]0;root@TIGER032NAL_COST_DASHBOARD_BANNER.txt[0m     [01;32mrtm_code_template_cluster.txt[0m
+ [01;32mGlobalrtm_cluster.txt[0m  [01;32m'Shriranjani - Chrome.lnk'[0m
+]0;root@TIGER03201: /mnt/c/Documents and Settings/shriranjani.venk/Desktoproot@TIGER03201:/mnt/c/Documents and Settings/shriranjani.venk/Desktop# cd
+]0;root@TIGER03201: ~root@TIGER03201:~# cd /home/shriranjani/
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# ls
+my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cp my_unix_session :/mnt/c/Documents and Settings/shriranjani.venk/Desktop#[K[C[1P
+cp: target 'Settings/shriranjani.venk/Desktop' is not a directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cp my_unix_session /mnt/c/Documents and Settings/shriranjani.venk/Desktop/
+cp: target 'Settings/shriranjani.venk/Desktop/' is not a directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cp my_unix_session /mnt/c/Documents and Settings/shriranjani.venk/Desktop/[C[1P
+cp: target 'Settings/shriranjani.venk/Desktop/' is not a directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# md=[K[Kkdir  mnt/c/Documents and Settings/shriranjani.venk/Desktop/ubuntu
+mkdir: cannot create directory ‘mnt/c/Documents’: No such file or directory
+mkdir: cannot create directory ‘Settings/shriranjani.venk/Desktop/ubuntu’: No such file or directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# mkdir  mnt/c/Documents and Settings/shriranjani.venk/Desktop/ubuntu[K[K[K[K[K[K[K[K[K[K[K[K[K[KDoc[K[K[KDocum[K[K[K[Kes[K[K[K
+mkdir: cannot create directory ‘mnt/c/Documents’: No such file or directory
+mkdir: cannot create directory ‘and’: File exists
+mkdir: cannot create directory ‘Settings/shriranjani.venk/’: No such file or directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# mkdir  mnt/c/Documents and Settings/shriranjani.venk/[1P[1P[1P[1P[1P[1P[1P[1@c[1@d[1@ 
+bash: cd: too many arguments
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cd
+]0;root@TIGER03201: ~root@TIGER03201:~# cd mnt/c/Documents and Settings/shriranjani.venk/
+bash: cd: too many arguments
+]0;root@TIGER03201: ~root@TIGER03201:~# cd mnt/c/Documents and Settings/shriranjani.venk/[1@/
+bash: cd: too many arguments
+]0;root@TIGER03201: ~root@TIGER03201:~# cd /mnt/c/Documents and Settings/shriranjani.venk/[K
+bash: cd: too many arguments
+]0;root@TIGER03201: ~root@TIGER03201:~# cd/[K /m[K[K./
+]0;root@TIGER03201: ~root@TIGER03201:~# cd /m[K[Kmn[K[K[K[K[Kcd /
+]0;root@TIGER03201: /root@TIGER03201:/# cd /.//mnt/c/Documents and Settings/shriranjani.venk/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K mnt/c/Documents and Settings/shriranjani.venk/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@mkdir [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CDoci[Kuments/new/
+mkdir: cannot create directory ‘Settings/shriranjani.venk/Documents/new/’: No such file or directory
+]0;root@TIGER03201: /root@TIGER03201:/# mkdir  mnt/c/Documents and Settings/shriranjani.venk/Documents/new/[K[K[K[K[K[K[K[K[K[K[K[K[Kesktop
+mkdir: cannot create directory ‘mnt/c/Documents’: File exists
+mkdir: cannot create directory ‘and’: File exists
+mkdir: cannot create directory ‘Settings/shriranjani.venk/01: ~root@TIGER03201:~# cd /home/shriranjani/
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# ls
+my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cp my_unix_session :/mnt/c/Documents and Settings/shriranjani.venk/Desktop#[K[C[1P
+cp: target 'Settings/shriranjani.venk/Desktop' is not a directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cp my_unix_session /mnt/c/Documents and Settings/shriranjani.venk/Desktop/
+cp: target 'Settings/shriranjani.venk/Desktop/' is not a directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cp my_unix_session /mnt/c/Documents and Settings/shriranjani.venk/Desktop/[C[1P
+cp: target 'Settings/shriranjani.venk/Desktop/' is not a directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# md=[K[Kkdir  mnt/c/Documents and Settings/shriranjani.venk/Desktop/ubuntu
+mkdir: cannot create directory ‘mnt/c/Documents’: No such file or directory
+mkdir: cannot create directory ‘Settings/shriranjani.venk/Desktop/ubuntu’: No such file or directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# mkdir  mnt/c/Documents and Settings/shriranjani.venk/Desktop/ubuntu[K[K[K[K[K[K[K[K[K[K[K[K[K[KDoc[K[K[KDocum[K[K[K[Kes[K[K[K
+mkdir: cannot create directory ‘mnt/c/Documents’: No such file or directory
+mkdir: cannot create directory ‘and’: File exists
+mkdir: cannot create directory ‘Settings/shriranjani.venk/’: No such file or directory
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# mkdir  mnt/c/Documents and Settings/shriranjani.venk/[1P[1P[1P[1P[1P[1P[1P[1@c[1@d[1@ 
+bash: cd: too many arguments
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cd
+]0;root@TIGER03201: ~root@TIGER03201:~# cd mnt/c/Documents and Settings/shriranjani.venk/
+bash: cd: too many arguments
+]0;root@TIGER03201: ~root@TIGER03201:~# cd mnt/c/Documents and Settings/shriranjani.venk/[1@/
+bash: cd: too many arguments
+]0;root@TIGER03201: ~root@TIGER03201:~# cd /mnt/c/Documents and Settings/shriranjani.venk/[K
+bash: cd: too many arguments
+]0;root@TIGER03201: ~root@TIGER03201:~# cd/[K /m[K[K./
+]0;root@TIGER03201: ~root@TIGER03201:~# cd /m[K[Kmn[K[K[K[K[Kcd /
+]0;root@TIGER03201: /root@TIGER03201:/# cd /.//mnt/c/Documents and Settings/shriranjani.venk/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K mnt/c/Documents and Settings/shriranjani.venk/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@mkdir [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CDoci[Kuments/new/
+mkdir: cannot create directory ‘Settings/shriranjani.venk/Documents/new/’: No such file or directory
+]0;root@TIGER03201: /root@TIGER03201:/# mkdir  mnt/c/Documents and Settings/shriranjani.venk/Documents/new/[K[K[K[K[K[K[K[K[K[K[K[K[Kesktop
+mkdir: cannot create directory ‘mnt/c/Documents’: File exists
+mkdir: cannot create directory ‘and’: File exists
+mkdir: cannot create directory ‘Settings/shriranjani.venk/Desktop’: No such file or directory
+]0;root@TIGER03201: /root@TIGER03201:/# mkdir  mnt/c/Documents and Settings/shriranjani.venk/Desktop[1P[1P[1P[1P[1P[1@c[1@d
+bash: cd: too many arguments
+]0;root@TIGER03201: /root@TIGER03201:/# cd  mnt/c/DocumentsDesktop’: No such file or directory
+]0;root@TIGER03201: /root@TIGER03201:/# mkdir  mnt/c/Documents and Settings/shriranjani.venk/Desktop[1P[1P[1P[1P[1P[1@c[1@d
+bash: cd: too many arguments
+]0;root@TIGER03201: /root@TIGER03201:/# cd  mnt/c/Documents and Settings/shriranjani.venk/Desktop[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/mnt
+]0;root@TIGER03201: /mntroot@TIGER03201:/mnt# cd c
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Documents
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# ls
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# cd ..
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# ls
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+[0m[34;42m'$Recycle.Bin'[0m  [01;36m'Documents and Settings'[0m   [34;42mIntel[0m                  [34;42mProgramData[0m                  [01;34mWindows[0m    hiberfil.sys
+[01;34m'$WinREAgent'[0m    [34;42mDrivers[0m                   [01;34mPerfLogs[0m               [01;34mRecovery[0m                     [34;42mdell[0m       pagefile.sys
+ [34;42mApps[0m            DumpStack.log.tmp        [01;34m'Program Files'[0m        [01;34m'System Volume Information'[0m   [01;32mdell.sdr[0m   swapfile.sys
+ [34;42mDocuments[0m       [01;32mFIOD.manifest[0m            [01;34m'Program Files (x86)'[0m   [01;34mUsers[0m                        [34;42me-logo[0m
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Program Files
+bash: cd: too many arguments
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Program Files[K[K[K[K[K[K[K[K[K[K[K[Krogram FIOD.manifest [K[K[K[K[K[K[K[K[K[K[K[K[Kil[Kles
+bash: cd: too many arguments
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Program Files[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd Documents ans[Kd Settings
+bash: cd: too many arguments
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Documents and Settings[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KDocuments and Settings'
+> ^C
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd [K[K[Kls
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+[0m[34;42m'$Recycle.Bin'[0m  [01;36m'Documents and Settings'[0m   [34;42mIntel[0m                  [34;42mProgramData[0m                  [01;34mWindows[0m    hiberfil.sys
+[01;34m'$WinREAgent'[0m    [34;42mDrivers[0m                   [01;34mPerfLogs[0m               [01;34mRecovery[0m                     [34;42mdell[0m       pagefile.sys
+ [34;42mApps[0m            DumpStack.log.tmp        [01;34m'Program Files'[0m        [01;34m'System Volume Information'[0m   [01;32mdell.sdr[0m   swapfile.sys
+ [34;42mDocuments[0m       [01;32mFIOD.manifest[0m            [01;34m'Program Files (x86)'[0m   [01;34mUsers[0m                        [34;42me-logo[0m
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Documents and System\ Volume\ Information/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KSe[K[K[K[K[K[K[K[K[K[K[K[K[Kuments
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# ls
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# mkdir new 
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# c[Kcd 
+]0;root@TIGER03201: ~root@TIGER0 and Settings/shriranjani.venk/Desktop[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K/mnt
+]0;root@TIGER03201: /mntroot@TIGER03201:/mnt# cd c
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Documents
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# ls
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# cd ..
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# ls
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+[0m[34;42m'$Recycle.Bin'[0m  [01;36m'Documents and Settings'[0m   [34;42mIntel[0m                  [34;42mProgramData[0m                  [01;34mWindows[0m    hiberfil.sys
+[01;34m'$WinREAgent'[0m    [34;42mDrivers[0m                   [01;34mPerfLogs[0m               [01;34mRecovery[0m                     [34;42mdell[0m       pagefile.sys
+ [34;42mApps[0m            DumpStack.log.tmp        [01;34m'Program Files'[0m        [01;34m'System Volume Information'[0m   [01;32mdell.sdr[0m   swapfile.sys
+ [34;42mDocuments[0m       [01;32mFIOD.manifest[0m            [01;34m'Program Files (x86)'[0m   [01;34mUsers[0m                        [34;42me-logo[0m
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Program Files
+bash: cd: too many arguments
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Program Files[K[K[K[K[K[K[K[K[K[K[K[Krogram FIOD.manifest [K[K[K[K[K[K[K[K[K[K[K[K[Kil[Kles
+bash: cd: too many arguments
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Program Files[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd Documents ans[Kd Settings
+bash: cd: too many arguments
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Documents and Settings[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KDocuments and Settings'
+> ^C
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd [K[K[Kls
+ls: cannot access 'DumpStack.log.tmp': Permission denied
+ls: cannot access 'hiberfil.sys': Permission denied
+ls: cannot access 'pagefile.sys': Permission denied
+ls: cannot access 'swapfile.sys': Permission denied
+[0m[34;42m'$Recycle.Bin'[0m  [01;36m'Documents and Settings'[0m   [34;42mIntel[0m                  [34;42mProgramData[0m                  [01;34mWindows[0m    hiberfil.sys
+[01;34m'$WinREAgent'[0m    [34;42mDrivers[0m                   [01;34mPerfLogs[0m               [01;34mRecovery[0m                     [34;42mdell[0m       pagefile.sys
+ [34;42mApps[0m            DumpStack.log.tmp        [01;34m'Program Files'[0m        [01;34m'System Volume Information'[0m   [01;32mdell.sdr[0m   swapfile.sys
+ [34;42mDocuments[0m       [01;32mFIOD.manifest[0m            [01;34m'Program Files (x86)'[0m   [01;34mUsers[0m                        [34;42me-logo[0m
+]0;root@TIGER03201: /mnt/croot@TIGER03201:/mnt/c# cd Documents and System\ Volume\ Information/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[KSe[K[K[K[K[K[K[K[K[K[K[K[K[Kuments
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# ls
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# mkdir new 
+]0;root@TIGER03201: /mnt/c/Documentsroot@TIGER03201:/mnt/c/Documents# c[Kcd 
+]0;root@TIGER03201: ~root@TIGER03201:~# ls
+]0;root@TIGER03201: ~root@TIGER03201:~# cd .[K/home/shriranjani/
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# ls
+[0m[01;34mand[0m  my_unix_session
+]0;root@TIGER03201: /home/shriranjaniroot@TIGER03201:/home/shriranjani# cp my_unix_session /mnt/c/Documents/new/
+]0;root@T
